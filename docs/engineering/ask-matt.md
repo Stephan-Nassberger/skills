@@ -29,3 +29,7 @@ The idea `ask-matt` gives you to think with is the **flow** — a path *through*
 ## Where it fits
 
 `ask-matt` is the **router** — the standalone map that sits over the whole set. It is the node every other docs page links back to as [ask-matt](https://aihero.dev/skills-ask-matt), so it never sits *in* a chain; it points *into* every chain. From here you'll most often land on [grill-with-docs](https://aihero.dev/skills-grill-with-docs), the head of the main flow, or [triage](https://aihero.dev/skills-triage), the on-ramp for work you didn't create. When even the router's own picture is stale, its [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/ask-matt) is the map of record.
+
+## M365 workflows in this fork
+
+This fork also routes Microsoft 365 questions to the [M365 Developer Skills collection](https://github.com/Stephan-Nassberger/skills/tree/main/skills/engineering/M365%20Developer%20Skills), including Microsoft Learn documentation and authenticated Work IQ SharePoint actions. The existing engineering flow remains available; domain workflows do not grant tenant permissions.

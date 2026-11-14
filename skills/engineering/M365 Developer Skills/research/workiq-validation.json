@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-14",
+  "endpoint": "https://workiq.svc.cloud.microsoft/mcp",
+  "initialize_without_token_http_status": 401,
+  "error_code": "InvalidAuthenticationToken",
+  "oauth_resource_metadata_url": "https://workiq.svc.cloud.microsoft/.well-known/oauth-protected-resource/mcp",
+  "authorization_servers": [
+    "https://login.microsoftonline.com/organizations/v2.0"
+  ],
+  "advertised_scopes": [
+    "fdcc1f02-fc51-4226-8753-f668596af7f7/WorkIQAgent.Ask"
+  ],
+  "configured_scope": "api://workiq.svc.cloud.microsoft/WorkIQ.Act",
+  "scope_discrepancy": "Current SharePoint documentation requires WorkIQ.Read or WorkIQ.Act; live public metadata advertises only Ask. No authenticated scope/path validation has been performed.",
+  "oauth_client_source": "https://github.com/microsoft/work-iq/blob/df79ddf69e6ffd9e0dcc0eaaa40bd7477a3606cd/plugins/workiq/openai-submission/mcp.json",
+  "authenticated": false,
+  "tools_discovered": false,
+  "tenant_reads_tested": false,
+  "tenant_writes_tested": false
+}

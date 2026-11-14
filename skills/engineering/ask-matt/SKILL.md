@@ -76,3 +76,27 @@ Off the main flow entirely.
 ## Precondition
 
 **`/setup-matt-pocock-skills`** — run before your first engineering flow to configure the issue tracker, triage labels, and doc layout the other skills assume. Custom issue trackers also work.
+
+## Microsoft 365 domain workflows (fork addition)
+
+For M365-specific work, use the matching model-invoked domain skill alongside the engineering flow. These do not require `/setup-matt-pocock-skills` merely for a documentation lookup.
+
+- `/spfx` — SharePoint Framework (SPFx) development
+- `/msgraph-sdk` — Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python
+- `/teams-dev` — Use this skill whenever the user mentions Microsoft Teams in a development context — whether they're building, integrating, configuring, debugging, porting a Slack bot to Teams, or just asking questions
+- `/semantic-model-authoring` — Manages Power BI semantic models, including tables, columns, measures, relationships, field parameters, DAX, Import, DirectQuery and Direct Lake designs, sources, connections, permissions, refresh, and deployment
+- `/martix-sharepoint-pnp` — Standalone-first SharePoint PnP guidance for tool selection, provisioning, automation, authentication, and cross-tool delivery using PnP PowerShell, CLI for Microsoft 365, and PnPjs
+- `/martix-fluent-ui` — Fluent UI React v9 engineering for packages, providers, themes, tokens, Griffel, public component and slot composition, accessibility and focus, Next.js SSR, icons, motion, charts, legacy Fabric/v8/v0 migration, and rare Vue integration through @fluentui/web-components
+- `/pnp-modern-search` — Configure and troubleshoot PnP Modern Search v4 web parts, KQL, managed properties, filters and Handlebars layouts
+- `/sharepoint-json-column-formatting` — Create, review and troubleshoot SharePoint and Microsoft Lists JSON column formatting, field expressions and supported actions
+- `/sharepoint-json-view-formatting` — Create and debug SharePoint and Microsoft Lists JSON view formatting for rows, tiles and supported layout surfaces
+- `/adaptive-cards-m365` — Design and validate Adaptive Cards for Teams, Power Automate or SPFx Adaptive Card Extensions with host-specific actions and data binding.
+- `/power-automate-development` — Design, review and troubleshoot Power Automate cloud flows, SharePoint integrations, expressions, connection references and solution ALM
+- `/power-apps-development` — Build and review Power Apps canvas and model-driven apps, Power Fx, SharePoint forms, delegation and solution ALM using the actual authoring tools available.
+- `/planner-development` — Develop Microsoft Planner basic-plan integrations through Microsoft Graph, including tasks, buckets, details, assignments and concurrency
+- `/microsoft-forms-integration` — Integrate Microsoft Forms responses with Power Automate and SharePoint using documented connectors, ownership and response mappings
+- `/sharepoint-html-spfx-extensions` — Choose and implement supported SharePoint HTML rendering and SPFx Application Customizer, Field Customizer, Command Set or Form Customizer extensions.
+- `/azure-functions-m365` — Build and troubleshoot Azure Functions backends for Microsoft 365 integrations, Graph webhooks, timers and queue-based processing.
+- `/microsoft-learn` — Search current Microsoft Learn documentation and official code samples before implementing or troubleshooting Microsoft 365, SharePoint, SPFx, Graph, Teams, Power Platform, Power BI, Fluent UI or Azure integrations
+
+- `/workiq-sharepoint` — discover and use authorized SharePoint actions through Work IQ; separate from public Microsoft Learn lookups.

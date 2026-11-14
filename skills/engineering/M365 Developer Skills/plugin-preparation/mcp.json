@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "microsoft-learn": {
+      "type": "streamable-http",
+      "url": "https://learn.microsoft.com/api/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    "workiq": {
+      "type": "streamable-http",
+      "url": "https://workiq.svc.cloud.microsoft/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "provided",
+              "clientId": "e0476654-c1d5-430b-ab80-70cbd947616a",
+              "tokenEndpointAuthMethod": "none"
+            },
+            "defaultScopes": [
+              "api://workiq.svc.cloud.microsoft/WorkIQ.Act"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@
   },
   "homepage": "https://www.aihero.dev/s/skills-newsletter",
   "repository": "https://github.com/mattpocock/skills",
-  "license": "MIT",
+  "license": "MIT AND Apache-2.0",
   "keywords": [
     "engineering",
     "skills",
@@ -40,6 +40,24 @@
     "./skills/productivity/grilling",
     "./skills/productivity/handoff",
     "./skills/productivity/teach",
-    "./skills/productivity/writing-great-skills"
+    "./skills/productivity/writing-great-skills",
+    "./skills/engineering/M365 Developer Skills/spfx",
+    "./skills/engineering/M365 Developer Skills/msgraph-sdk",
+    "./skills/engineering/M365 Developer Skills/teams-dev",
+    "./skills/engineering/M365 Developer Skills/semantic-model-authoring",
+    "./skills/engineering/M365 Developer Skills/martix-sharepoint-pnp",
+    "./skills/engineering/M365 Developer Skills/martix-fluent-ui",
+    "./skills/engineering/M365 Developer Skills/pnp-modern-search",
+    "./skills/engineering/M365 Developer Skills/sharepoint-json-column-formatting",
+    "./skills/engineering/M365 Developer Skills/sharepoint-json-view-formatting",
+    "./skills/engineering/M365 Developer Skills/adaptive-cards-m365",
+    "./skills/engineering/M365 Developer Skills/power-automate-development",
+    "./skills/engineering/M365 Developer Skills/power-apps-development",
+    "./skills/engineering/M365 Developer Skills/planner-development",
+    "./skills/engineering/M365 Developer Skills/microsoft-forms-integration",
+    "./skills/engineering/M365 Developer Skills/sharepoint-html-spfx-extensions",
+    "./skills/engineering/M365 Developer Skills/azure-functions-m365",
+    "./skills/engineering/M365 Developer Skills/microsoft-learn",
+    "./skills/engineering/M365 Developer Skills/workiq-sharepoint"
   ]
 }

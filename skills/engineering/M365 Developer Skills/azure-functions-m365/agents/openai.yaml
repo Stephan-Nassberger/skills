@@ -1,0 +1,3 @@
+interface:
+  display_name: azure-functions-m365
+  short_description: 'Microsoft 365: azure-functions-m365'

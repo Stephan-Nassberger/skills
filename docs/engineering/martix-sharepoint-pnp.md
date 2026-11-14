@@ -1,0 +1,29 @@
+Quickstart:
+
+```bash
+npx skills add Stephan-Nassberger/skills --skill=martix-sharepoint-pnp
+```
+
+```bash
+npx skills update martix-sharepoint-pnp
+```
+
+[Source](https://github.com/Stephan-Nassberger/skills/tree/main/skills/engineering/M365%20Developer%20Skills/martix-sharepoint-pnp)
+
+## What it does
+
+Standalone-first SharePoint PnP guidance for tool selection, provisioning, automation, authentication, and cross-tool delivery using PnP PowerShell, CLI for Microsoft 365, and PnPjs. Use this skill whenever the user mentions PnP PowerShell cmdlets (for example Connect-PnPOnline), CLI for Microsoft 365 SharePoint commands (for example m365 spo), PnPjs, provisioning templates, site scripts or site designs, tenant automation, SharePoint scripting, or choosing among these tooling paths for SharePoint delivery. Keep scope on tooling, automation, provisioning, auth, and operational safety. Do not use for classic farm-solution packaging or pure SPFx component implementation.
+
+This workflow follows the target project's actual version and available tools. It does not grant tenant permissions or deploy a solution merely because the skill is installed.
+
+## When to reach for it
+
+Type `/martix-sharepoint-pnp`, or the agent can select it when the task fits. Use its documented product boundary; combine it with Microsoft Learn for current Microsoft API and compatibility evidence.
+
+## Prerequisites
+
+For implementation, provide the target project and the tools appropriate to that product. Live documentation search uses the official Microsoft Learn MCP connection; M365 tenant access remains separate. This folder is part of a curated collection, not a new Microsoft certification or tool entitlement.
+
+## Where it fits
+
+A standalone domain workflow in Stephan Nassberger's M365 Developer Skills collection. It complements the existing engineering flow instead of replacing it. [ask-matt](https://github.com/Stephan-Nassberger/skills/blob/main/skills/engineering/ask-matt/SKILL.md) maps the other workflows; [the M365 catalog](https://github.com/Stephan-Nassberger/skills/blob/main/skills/engineering/M365%20Developer%20Skills/CATALOG.md) records source, license and version for this skill.

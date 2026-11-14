@@ -1,0 +1,1059 @@
+{
+  "format_version": 1,
+  "sources": [
+    {
+      "name": "spfx",
+      "origin": "imported-adapted",
+      "repository": "https://github.com/SharePoint/spfx-dev-skills",
+      "commit": "31010d241bd84821d32ebfa50eda1fe81a6f0b86",
+      "source_path": "plugins/spfx/skills/spfx/",
+      "source_url": "https://github.com/SharePoint/spfx-dev-skills/tree/31010d241bd84821d32ebfa50eda1fe81a6f0b86/plugins/spfx/skills/spfx",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "files": [
+        {
+          "path": "spfx/SKILL.md",
+          "upstream_path": "plugins/spfx/skills/spfx/SKILL.md",
+          "sha256": "eef818b67b86eb9c1246e849fcfdd5e0d799000438d70b3f528a2e35b8328bb1"
+        },
+        {
+          "path": "spfx/references/create.md",
+          "upstream_path": "plugins/spfx/skills/spfx/references/create.md",
+          "sha256": "9aeb416211ee787f594211e96c1be78a5c17346547d2051a6d4dd04010cd2c91"
+        },
+        {
+          "path": "spfx/references/pnpjs.md",
+          "upstream_path": "plugins/spfx/skills/spfx/references/pnpjs.md",
+          "sha256": "07805f6d258ab7ced098b042f632f631431b98aca09a5175058afca880f4fd09"
+        },
+        {
+          "path": "spfx/references/react-design.md",
+          "upstream_path": "plugins/spfx/skills/spfx/references/react-design.md",
+          "sha256": "5b8a901e126d40194b4fed81cd1070e7ac81993e7e21a1270ba9c52f5042b7b6",
+          "upstream_sha256": "a23345e8b65ec6e9179e13b1ed0bab478642a67c9fa44fe7d2b67b951291e454"
+        },
+        {
+          "path": "spfx/references/upgrade.md",
+          "upstream_path": "plugins/spfx/skills/spfx/references/upgrade.md",
+          "sha256": "8f8a86196c58de74dab3f3901a4665af43c27a2032b569ab482642ab75bb2a98"
+        },
+        {
+          "path": "spfx/UPSTREAM-LICENSE",
+          "upstream_path": "LICENSE",
+          "sha256": "0fb3ba9c347af488bd09cf68aaf55c4b13e96caaf353feaee35fc743b7d02058"
+        }
+      ],
+      "validation": "static inspection; no tenant/runtime execution",
+      "modifications": [
+        {
+          "path": "spfx/references/react-design.md",
+          "change": "Repair upstream missing toolchain.md link to the existing SKILL.md toolchain decision rule; no other semantic changes."
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "spfx/agents/openai.yaml",
+          "sha256": "1fb8683764d56216d8a8dd92e7fe666609480e352b682d430e7144cc115be012"
+        }
+      ]
+    },
+    {
+      "name": "msgraph-sdk",
+      "origin": "imported-unmodified",
+      "repository": "https://github.com/github/awesome-copilot",
+      "commit": "8ecd5b17f02fe5fbebf35eccd1867265eded811f",
+      "source_path": "skills/msgraph-sdk/",
+      "source_url": "https://github.com/github/awesome-copilot/tree/8ecd5b17f02fe5fbebf35eccd1867265eded811f/skills/msgraph-sdk",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "files": [
+        {
+          "path": "msgraph-sdk/SKILL.md",
+          "upstream_path": "skills/msgraph-sdk/SKILL.md",
+          "sha256": "cafac367eb3fdc99e05aedc76d46ad77f49e6c3fbc549e3cc6ec86d657638d8b"
+        },
+        {
+          "path": "msgraph-sdk/references/dotnet.md",
+          "upstream_path": "skills/msgraph-sdk/references/dotnet.md",
+          "sha256": "aaaa91345ab7ff18f56d9f14d65a48e076d79221b4e1082290b67784ac26b0af"
+        },
+        {
+          "path": "msgraph-sdk/references/python.md",
+          "upstream_path": "skills/msgraph-sdk/references/python.md",
+          "sha256": "79e06ae261ba58737f55d7839832826f9bfdfd06225f1d214ae6e5eeac8ffd79"
+        },
+        {
+          "path": "msgraph-sdk/references/typescript.md",
+          "upstream_path": "skills/msgraph-sdk/references/typescript.md",
+          "sha256": "0e6f5236ecafc811d86ffe214351f03d66367e268bc76b7a904c51d0e5155acc"
+        },
+        {
+          "path": "msgraph-sdk/UPSTREAM-LICENSE",
+          "upstream_path": "LICENSE",
+          "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823"
+        }
+      ],
+      "validation": "static inspection; no tenant/runtime execution",
+      "collection_files": [
+        {
+          "path": "msgraph-sdk/agents/openai.yaml",
+          "sha256": "f2614be4677bf4d0b2d5b1cd9d1f566f79dfee12891529c01949829c39268985"
+        }
+      ]
+    },
+    {
+      "name": "teams-dev",
+      "origin": "imported-unmodified",
+      "repository": "https://github.com/microsoft/teams-sdk",
+      "commit": "64aebb60e8e17c9087f86c16e2cc3672ee302450",
+      "source_path": "plugins/teams-sdk/skills/teams-dev/",
+      "source_url": "https://github.com/microsoft/teams-sdk/tree/64aebb60e8e17c9087f86c16e2cc3672ee302450/plugins/teams-sdk/skills/teams-dev",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "files": [
+        {
+          "path": "teams-dev/SKILL.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/SKILL.md",
+          "sha256": "e20db951d3e456d2abd78c0294be29357247142182c86d0e78ba26558476a915"
+        },
+        {
+          "path": "teams-dev/references/guide-create-bot-app.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/references/guide-create-bot-app.md",
+          "sha256": "a912882e26402c1274f2932e2df1fa9ca7d40d32a9b2fbf0b58b84ce7756876c"
+        },
+        {
+          "path": "teams-dev/references/guide-create-bot-infra.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/references/guide-create-bot-infra.md",
+          "sha256": "866be55ba2caa6796351109577d9fc0a7ab325df19c3c19b927a71835ed94897"
+        },
+        {
+          "path": "teams-dev/references/guide-integrate-existing-server.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/references/guide-integrate-existing-server.md",
+          "sha256": "7091d3e8c1b3f313156dc1a93e412479daa026f86c092f28c519fb1bfe6c4b4d"
+        },
+        {
+          "path": "teams-dev/references/guide-migrate-slack-bolt.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/references/guide-migrate-slack-bolt.md",
+          "sha256": "8d3ea475483433eaab88443e4afb75467b2b2faaa5368f372fb5a40274a27e97"
+        },
+        {
+          "path": "teams-dev/references/guide-setup-sso.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/references/guide-setup-sso.md",
+          "sha256": "ac853e8430238f579f28b8795252d6b00d7aa4afb515e51de84eb994f59b4b3d"
+        },
+        {
+          "path": "teams-dev/references/troubleshooting.md",
+          "upstream_path": "plugins/teams-sdk/skills/teams-dev/references/troubleshooting.md",
+          "sha256": "2eb272223412b1f78ff8a5ac558c851f2e1184eb134bd6624774d37ba9122557"
+        },
+        {
+          "path": "teams-dev/UPSTREAM-LICENSE",
+          "upstream_path": "LICENSE",
+          "sha256": "fd532481d828e13a0b13ccb598e02338a3617740675a862ee6bdc1541b68e93d"
+        }
+      ],
+      "validation": "static inspection; no tenant/runtime execution",
+      "collection_files": [
+        {
+          "path": "teams-dev/agents/openai.yaml",
+          "sha256": "67dc10ae1d042525ec07e99a8c8380635eccfa840a09cddeed17bfe9d22c70c2"
+        }
+      ]
+    },
+    {
+      "name": "semantic-model-authoring",
+      "origin": "imported-unmodified",
+      "repository": "https://github.com/microsoft/skills-for-fabric",
+      "commit": "e31422e7d1045ef3a0906df9ff5991f2338af010",
+      "source_path": "plugins/fabric-skills/skills/semantic-model-authoring/",
+      "source_url": "https://github.com/microsoft/skills-for-fabric/tree/e31422e7d1045ef3a0906df9ff5991f2338af010/plugins/fabric-skills/skills/semantic-model-authoring",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "files": [
+        {
+          "path": "semantic-model-authoring/SKILL.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/SKILL.md",
+          "sha256": "69196e96a5a2e1c521686570d6608712ea5c12e09de63b82891872683540c129"
+        },
+        {
+          "path": "semantic-model-authoring/references/connection-binding.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/connection-binding.md",
+          "sha256": "f46fdda2ff62da2efe2835a840474328c2a3a107d50db1d58fa966c628cde1b7"
+        },
+        {
+          "path": "semantic-model-authoring/references/dax-guidelines.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/dax-guidelines.md",
+          "sha256": "9c1645f1b2aaf6088b239c5015ca2b6c5133d01914035dbe83fcf784012dd5de"
+        },
+        {
+          "path": "semantic-model-authoring/references/dax-perf-decision-guide.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/dax-perf-decision-guide.md",
+          "sha256": "13a23d4cf4b3083b80502e15f6a8b589dddcdc30d8ca05a6d23421d7c1af4042"
+        },
+        {
+          "path": "semantic-model-authoring/references/dax-perf-patterns.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/dax-perf-patterns.md",
+          "sha256": "270d87a24e375d117679c32535a05e75ea887f1f15377648b816659909503451"
+        },
+        {
+          "path": "semantic-model-authoring/references/direct-lake-guidelines.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/direct-lake-guidelines.md",
+          "sha256": "022d51a2dac429e50e6359ca6ab73b625c0bf1fae0b34c4d92cd2a7c75568885"
+        },
+        {
+          "path": "semantic-model-authoring/references/field-parameters.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/field-parameters.md",
+          "sha256": "2977410b5a9ee6176c96d2ba3237ba07ffdac93d2c7503833ea1cfeefdee730d"
+        },
+        {
+          "path": "semantic-model-authoring/references/metadata-discovery.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/metadata-discovery.md",
+          "sha256": "cf57d3073f6624c5f18342cac44a61ee65be473b3e3f38a46db4bf6aed894f87"
+        },
+        {
+          "path": "semantic-model-authoring/references/modeling-guidelines.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/modeling-guidelines.md",
+          "sha256": "798aadc21662fde470713019868e345b39f838b4cf8f9ba5ada854e228b2a45c"
+        },
+        {
+          "path": "semantic-model-authoring/references/naming-conventions.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/naming-conventions.md",
+          "sha256": "b64c4e5abf90e03257926c8350952e9fda36a854ff13903e70ebf397dcebe019"
+        },
+        {
+          "path": "semantic-model-authoring/references/pbip.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/pbip.md",
+          "sha256": "005d5feab1864ac4fed3f2a92c2fbf5f45f7549d612b0793d8ec90be9df1c740"
+        },
+        {
+          "path": "semantic-model-authoring/references/semantic-model-ai-readiness.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/semantic-model-ai-readiness.md",
+          "sha256": "f1d654f29e305f8db8384a322cc868d772145e184b8a41dc99ee8288f7f98cb5"
+        },
+        {
+          "path": "semantic-model-authoring/references/semantic-model-rest-api.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/semantic-model-rest-api.md",
+          "sha256": "f5d34e3e137be9ba694d7474e0dc5dd37762ce5655bc8f4a5ac8db3e3b35df7a"
+        },
+        {
+          "path": "semantic-model-authoring/references/tmdl-guidelines.md",
+          "upstream_path": "plugins/fabric-skills/skills/semantic-model-authoring/references/tmdl-guidelines.md",
+          "sha256": "d2d07210308b1b22b24c797f3cc63d576dacd282b346d116eef8423c65ccc1b5"
+        },
+        {
+          "path": "semantic-model-authoring/UPSTREAM-LICENSE",
+          "upstream_path": "LICENSE",
+          "sha256": "dd25ee079e44499d4cf55b7ce5f4b41d68fc236a40f872a13881bbf1dd73244f"
+        },
+        {
+          "path": "../common/COMMON-CLI.md",
+          "upstream_path": "plugins/fabric-skills/common/COMMON-CLI.md",
+          "sha256": "caa1a973eaab386f7dcec6f913df5786dac03ebbf87839385cc10f2aec3f5e98"
+        },
+        {
+          "path": "../common/COMMON-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/COMMON-CORE.md",
+          "sha256": "62794fc1defb12c62170524143527d94801ad2f53f60134f47864627dc115ab5"
+        },
+        {
+          "path": "../common/DATAFLOWS-AUTHORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/DATAFLOWS-AUTHORING-CORE.md",
+          "sha256": "aa71532d7d99ab86e304dc54279e98a490215a8f09dfc1ebd554673e83849189"
+        },
+        {
+          "path": "../common/DATAFLOWS-CONSUMPTION-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/DATAFLOWS-CONSUMPTION-CORE.md",
+          "sha256": "26e9d54291fdbd5568f67ef64ec06add473bce1c76996c5db11746618b9568c7"
+        },
+        {
+          "path": "../common/EVENTHOUSE-CONSUMPTION-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/EVENTHOUSE-CONSUMPTION-CORE.md",
+          "sha256": "bdb0d88983d07cca8fc0336bb85ddf4fe166bc74451fb42b25c9d5d5490e0f31"
+        },
+        {
+          "path": "../common/EVENTSTREAM-AUTHORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/EVENTSTREAM-AUTHORING-CORE.md",
+          "sha256": "48236c2f7d2b4738a58504f5756909e86edb0590ec7a194e78db33a5fe4cc8ba"
+        },
+        {
+          "path": "../common/EVENTSTREAM-CONSUMPTION-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/EVENTSTREAM-CONSUMPTION-CORE.md",
+          "sha256": "2ce1311b06213ea052191454266cdd28a7b57fdb5d4ca72fa560366aea78de98"
+        },
+        {
+          "path": "../common/ITEM-DEFINITIONS-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/ITEM-DEFINITIONS-CORE.md",
+          "sha256": "4fd9ed6d0935bccff56bbade0932e4f1e5cdaeb96cae473f0c71a7acdc8f92d0"
+        },
+        {
+          "path": "../common/SPARK-AUTHORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SPARK-AUTHORING-CORE.md",
+          "sha256": "5703f928e69c48ec8a94e4a557d2e1a6ed5951de929ad458e81884648ac5f700"
+        },
+        {
+          "path": "../common/SPARK-CONSUMPTION-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SPARK-CONSUMPTION-CORE.md",
+          "sha256": "02760e0550591214aa1df3a59e70b9508df6057cd6119e4bf1d424f43535fd01"
+        },
+        {
+          "path": "../common/SPARK-MONITORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SPARK-MONITORING-CORE.md",
+          "sha256": "531e12f1b4be063951f9a3ad9dd41768452f954ad085f0101ba3c9f025dad7f2"
+        },
+        {
+          "path": "../common/SPARK-NOTEBOOK-AUTHORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SPARK-NOTEBOOK-AUTHORING-CORE.md",
+          "sha256": "9ab6d9a22c03bf423476ba70055a74e219d6b06876ecca5a356607667635e36b"
+        },
+        {
+          "path": "../common/SQLDB-AUTHORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SQLDB-AUTHORING-CORE.md",
+          "sha256": "8df180e5fb5e8f5dbbe61f099a01463fdde8acc9162b4fa3ef89cc84b53de772"
+        },
+        {
+          "path": "../common/SQLDB-CONSUMPTION-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SQLDB-CONSUMPTION-CORE.md",
+          "sha256": "a95994ef4d90a168aade68cec1b820a8a256b6bb340999db0876ab9c9b4c0323"
+        },
+        {
+          "path": "../common/SQLDW-AUTHORING-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SQLDW-AUTHORING-CORE.md",
+          "sha256": "55d9846ca1d9ca5ac774988196f2d472d29ae8a39ee116a6a06e86c265f656a6"
+        },
+        {
+          "path": "../common/SQLDW-CONSUMPTION-CORE.md",
+          "upstream_path": "plugins/fabric-skills/common/SQLDW-CONSUMPTION-CORE.md",
+          "sha256": "8c07e2059d892230a49caf040eb2d29fdf97d5075f290ffe3fd5a1c0c1e55e20"
+        },
+        {
+          "path": "../common/notebook-authoring/connections.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/connections.md",
+          "sha256": "47aea5519fc4dbaad40156917772dff64216f7b640c31ff60c3265463532e6f3"
+        },
+        {
+          "path": "../common/notebook-authoring/context-and-params.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/context-and-params.md",
+          "sha256": "9576ad5ad1fc3272b1ba4c407c78284dcd945abb7e255999eb03cb111951f8c0"
+        },
+        {
+          "path": "../common/notebook-authoring/context-resolution.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/context-resolution.md",
+          "sha256": "9d203e6794b9deb2784aaeec95e1e617aac28258c1c00a61f6eb506ef46421bd"
+        },
+        {
+          "path": "../common/notebook-authoring/lakehouse-paths.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/lakehouse-paths.md",
+          "sha256": "e163435d438da328dee9f9d90361dc1bc67705289222ee3a708f2ec792f33b1f"
+        },
+        {
+          "path": "../common/notebook-authoring/lakehouse-tables.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/lakehouse-tables.md",
+          "sha256": "f60fb76cefaddfa03b109993bf894ef43dc2aa5c659cd5d2d7b1608d3bd7e4b8"
+        },
+        {
+          "path": "../common/notebook-authoring/library-mgmt.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/library-mgmt.md",
+          "sha256": "d58661b5b6db095880c83b2cb35ca006aa70fcc26daa0f3e3431ed0c08fae842"
+        },
+        {
+          "path": "../common/notebook-authoring/ml-workflow.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/ml-workflow.md",
+          "sha256": "841ca00cf903312fbcc0597c8976622c3593b46f21e7117c79cb6505676b6be8"
+        },
+        {
+          "path": "../common/notebook-authoring/notebook-resources.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/notebook-resources.md",
+          "sha256": "0e2b2a2a7a11e43f4749d479ada210104270b879dd727bf9a4385a4fd325048a"
+        },
+        {
+          "path": "../common/notebook-authoring/troubleshooting.md",
+          "upstream_path": "plugins/fabric-skills/common/notebook-authoring/troubleshooting.md",
+          "sha256": "ed6d4e56104e7d7fb54ab91ec0d553ef434e426b9b474b3ee1b95178c5291b93"
+        }
+      ],
+      "validation": "static inspection; no tenant/runtime execution",
+      "notes": "Shared dependencies are in ../common so upstream relative references remain unchanged. Plugin packaging places them at common/ as before.",
+      "collection_files": [
+        {
+          "path": "semantic-model-authoring/agents/openai.yaml",
+          "sha256": "f63ca183b01e5571ae85e16d930338f55e7ace631ddea3f433698b7234e6671c"
+        }
+      ]
+    },
+    {
+      "name": "martix-sharepoint-pnp",
+      "origin": "imported-unmodified",
+      "repository": "https://github.com/MartiXDev/skills",
+      "commit": "7ebf3fc4bf1abe52e35208fe7f9b4486dc634cce",
+      "source_path": "skills/martix-sharepoint-pnp/",
+      "source_url": "https://github.com/MartiXDev/skills/tree/7ebf3fc4bf1abe52e35208fe7f9b4486dc634cce/skills/martix-sharepoint-pnp",
+      "license": "Apache-2.0",
+      "checked_at": "2026-11-14",
+      "files": [
+        {
+          "path": "martix-sharepoint-pnp/.markdownlint.json",
+          "upstream_path": "skills/martix-sharepoint-pnp/.markdownlint.json",
+          "sha256": "eb43a6c33b8d5a3f997016ff7903033fc1ff09748abd3204853378e989d84aa4"
+        },
+        {
+          "path": "martix-sharepoint-pnp/AGENTS.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/AGENTS.md",
+          "sha256": "e0069cabcf294c38a8de8216db5161d26b08476a83bd44d0c21bb8ce314d3d04"
+        },
+        {
+          "path": "martix-sharepoint-pnp/LICENSE.txt",
+          "upstream_path": "skills/martix-sharepoint-pnp/LICENSE.txt",
+          "sha256": "6d9c49d54ba3ccbaacf619120fdff7df83623fc39e59b981d64f692d5b0b6fe4"
+        },
+        {
+          "path": "martix-sharepoint-pnp/README.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/README.md",
+          "sha256": "1e3417a7953d55765e3a301f43ae6711086046d0a2395bb798f0a7166a47a6aa"
+        },
+        {
+          "path": "martix-sharepoint-pnp/SKILL.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/SKILL.md",
+          "sha256": "9f70e9a397eaed3ab844d28333c024071cd6cf86f8fc4a3e9a79660e406dfbfc"
+        },
+        {
+          "path": "martix-sharepoint-pnp/assets/section-order.json",
+          "upstream_path": "skills/martix-sharepoint-pnp/assets/section-order.json",
+          "sha256": "b671c23dcf358ac3581db375eee8f8843d4a62d9e534227c6da8140ca7451543"
+        },
+        {
+          "path": "martix-sharepoint-pnp/assets/taxonomy.json",
+          "upstream_path": "skills/martix-sharepoint-pnp/assets/taxonomy.json",
+          "sha256": "8d2f306f352c5683bda72094bc18348bb15703959e6e0ac48bf133c8645d8730"
+        },
+        {
+          "path": "martix-sharepoint-pnp/evals/evals.json",
+          "upstream_path": "skills/martix-sharepoint-pnp/evals/evals.json",
+          "sha256": "ebf64dfa035e0042a9f609ca50785f751e4e1d1736698764d2a6cfa1541ca6d4"
+        },
+        {
+          "path": "martix-sharepoint-pnp/metadata.json",
+          "upstream_path": "skills/martix-sharepoint-pnp/metadata.json",
+          "sha256": "e0cf59b517042f944f46d0665661aa1cf904cf54b6265a1f7c2976541ffc915a"
+        },
+        {
+          "path": "martix-sharepoint-pnp/plugin.json",
+          "upstream_path": "skills/martix-sharepoint-pnp/plugin.json",
+          "sha256": "14e9a49f0cbe1855ebac6b48172e158c31d0cbc5b205c86727f79c6d979520ec"
+        },
+        {
+          "path": "martix-sharepoint-pnp/references/anti-patterns-quick-reference.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/references/anti-patterns-quick-reference.md",
+          "sha256": "5b913b435618732f8d01f79fd25ac1820acc8029d9cdcdaa8da2f6f83e314477"
+        },
+        {
+          "path": "martix-sharepoint-pnp/references/auth-connection-map.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/references/auth-connection-map.md",
+          "sha256": "1423d0613af7fc0524d45fadd7724d97ccf60666a2d5bc1062b1797a1d85f7e5"
+        },
+        {
+          "path": "martix-sharepoint-pnp/references/automation-recipes.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/references/automation-recipes.md",
+          "sha256": "cf1a4f116b3acad75e3fbdc6c1c68bd9578e0192f01078d43c87a9689b74caba"
+        },
+        {
+          "path": "martix-sharepoint-pnp/references/doc-source-index.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/references/doc-source-index.md",
+          "sha256": "d25095bb701a0369325103bd0aa171178ed27aec38906b3e510aeed044543354"
+        },
+        {
+          "path": "martix-sharepoint-pnp/references/provisioning-composition-map.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/references/provisioning-composition-map.md",
+          "sha256": "31c5b087db0dcf8afc1b1ec787f0b3d53c79f3886b662d3e95d79f8e7f4c6c10"
+        },
+        {
+          "path": "martix-sharepoint-pnp/references/tool-selection-map.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/references/tool-selection-map.md",
+          "sha256": "435ce6417205320e2a006131ce3c0be1223b6eb340531e52885403f4facf4e1c"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/_sections.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/_sections.md",
+          "sha256": "a131c76817570b48a783a8d7cb490f8e34f218a38b529740824bea6604a911d9"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/_template.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/_template.md",
+          "sha256": "689a3feb408f7b43e92dee112958d696b7ad55a2c183a84697c434df69d9e9a8"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/auth-app-registration-and-connections.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/auth-app-registration-and-connections.md",
+          "sha256": "2930d1a1c5a12c1e9d732edf1b5b5c8e3b64c6eae1dd54cb55a3d59e065f4b77"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/cli-m365-and-tenant-automation.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/cli-m365-and-tenant-automation.md",
+          "sha256": "90daecab954c12b044e433b7de67514dda978d61097834ba673fc95db4b51131"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/governance-idempotency-and-spfx-integration.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/governance-idempotency-and-spfx-integration.md",
+          "sha256": "30f7c05e45defefeb7da09323612a0ba98f8789f7651752cccb7e9c5b743641c"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/pnpjs-and-provisioning-composition.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/pnpjs-and-provisioning-composition.md",
+          "sha256": "af468693e2a51ea2a79012d05f1526a4fad33711799bbb2e999673d4902ab6bc"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/pnppowershell-automation-patterns.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/pnppowershell-automation-patterns.md",
+          "sha256": "e709196c131658d4817e63c9ac22be68fc9e9e5668862a3db51640b51a361576"
+        },
+        {
+          "path": "martix-sharepoint-pnp/rules/tool-selection-and-boundaries.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/rules/tool-selection-and-boundaries.md",
+          "sha256": "25b1e933a312e667b11f42ad032b7d1d9710587cf99007880824f2d6b04bd693"
+        },
+        {
+          "path": "martix-sharepoint-pnp/templates/comparison-matrix-template.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/templates/comparison-matrix-template.md",
+          "sha256": "ef6a6c4c9744e09a23ed6ac77f0fcd91312dba72e63c4b53302432d03fed0c3e"
+        },
+        {
+          "path": "martix-sharepoint-pnp/templates/research-pack-template.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/templates/research-pack-template.md",
+          "sha256": "813ce6891ec27c19494a3ee9075a928ee7809cbde1d1e24be7b38e1aba3da84c"
+        },
+        {
+          "path": "martix-sharepoint-pnp/templates/rule-template.md",
+          "upstream_path": "skills/martix-sharepoint-pnp/templates/rule-template.md",
+          "sha256": "4984603e522ecca58c72f129958cd8bb955c5f01fb81dcc1f179d200fbf1164c"
+        }
+      ],
+      "validation": "static inspection; no tenant/runtime execution",
+      "collection_files": [
+        {
+          "path": "martix-sharepoint-pnp/agents/openai.yaml",
+          "sha256": "1047f5e97ff838f6849de8f36024f66c9ae7a94d7a734a25e5c84c3abb9efddb"
+        }
+      ]
+    },
+    {
+      "name": "martix-fluent-ui",
+      "origin": "imported-unmodified",
+      "repository": "https://github.com/MartiXDev/skills",
+      "commit": "7ebf3fc4bf1abe52e35208fe7f9b4486dc634cce",
+      "source_path": "skills/martix-fluent-ui/",
+      "source_url": "https://github.com/MartiXDev/skills/tree/7ebf3fc4bf1abe52e35208fe7f9b4486dc634cce/skills/martix-fluent-ui",
+      "license": "Apache-2.0",
+      "checked_at": "2026-11-14",
+      "files": [
+        {
+          "path": "martix-fluent-ui/.markdownlint.json",
+          "upstream_path": "skills/martix-fluent-ui/.markdownlint.json",
+          "sha256": "eb43a6c33b8d5a3f997016ff7903033fc1ff09748abd3204853378e989d84aa4"
+        },
+        {
+          "path": "martix-fluent-ui/AGENTS.md",
+          "upstream_path": "skills/martix-fluent-ui/AGENTS.md",
+          "sha256": "b23bdd68248b007beb806fcebadcfe3682a97060411684caf573925276bba355"
+        },
+        {
+          "path": "martix-fluent-ui/LICENSE.txt",
+          "upstream_path": "skills/martix-fluent-ui/LICENSE.txt",
+          "sha256": "a3c157d0b19b0d505931cb78412c03d8e86687b70f19483163268d193df19c8b"
+        },
+        {
+          "path": "martix-fluent-ui/README.md",
+          "upstream_path": "skills/martix-fluent-ui/README.md",
+          "sha256": "e9954c8dfb9141041abe2c055f7ba0177e0009ba7daedc8092d7daa8b58a4032"
+        },
+        {
+          "path": "martix-fluent-ui/SKILL.md",
+          "upstream_path": "skills/martix-fluent-ui/SKILL.md",
+          "sha256": "0923a565789e5d8041290fefc71c0fbd0ef8e9b0590347e4724bc7c9dd9cf7b3"
+        },
+        {
+          "path": "martix-fluent-ui/assets/section-order.json",
+          "upstream_path": "skills/martix-fluent-ui/assets/section-order.json",
+          "sha256": "39cc65f0dff7228559a5adce71706c96b45c48fa4fd7e9d52eb359fe028107e8"
+        },
+        {
+          "path": "martix-fluent-ui/assets/taxonomy.json",
+          "upstream_path": "skills/martix-fluent-ui/assets/taxonomy.json",
+          "sha256": "2ee3ebb41989ce3c6e96cef96fd5fc81155c11ded85f047e9309a54d26f24f9e"
+        },
+        {
+          "path": "martix-fluent-ui/evals/evals.json",
+          "upstream_path": "skills/martix-fluent-ui/evals/evals.json",
+          "sha256": "5d2cff12790257d34f5392680d59d3664e8f32fe6c53931d11076b83d17c59be"
+        },
+        {
+          "path": "martix-fluent-ui/metadata.json",
+          "upstream_path": "skills/martix-fluent-ui/metadata.json",
+          "sha256": "068eb7f4886c24e99263004c770c1a1c39fe1d4b10637b85ab967c9568927e18"
+        },
+        {
+          "path": "martix-fluent-ui/plugin.json",
+          "upstream_path": "skills/martix-fluent-ui/plugin.json",
+          "sha256": "85b7327eb4ed0ac0990e7d7248d48f49550c5c38fba858edda8ab6abe4811dc4"
+        },
+        {
+          "path": "martix-fluent-ui/references/accessibility-map.md",
+          "upstream_path": "skills/martix-fluent-ui/references/accessibility-map.md",
+          "sha256": "851778ba4997718f39c5518352f29a284f16d071f7b5e5b84d82213f7d4836b5"
+        },
+        {
+          "path": "martix-fluent-ui/references/component-selection-map.md",
+          "upstream_path": "skills/martix-fluent-ui/references/component-selection-map.md",
+          "sha256": "860603f83e42a89b2b9637c185a5f9474b30637a1fff2fbbc7b3be954e918b9f"
+        },
+        {
+          "path": "martix-fluent-ui/references/ecosystem-boundaries.md",
+          "upstream_path": "skills/martix-fluent-ui/references/ecosystem-boundaries.md",
+          "sha256": "51342a9f4a0d4e9ca394900423eda1991f6d1a59eb36f91e37136bef61f7ec85"
+        },
+        {
+          "path": "martix-fluent-ui/references/migration-map.md",
+          "upstream_path": "skills/martix-fluent-ui/references/migration-map.md",
+          "sha256": "dd29ef6d3bebe6b423e4c4d52ae21267127bb17ce517f08c55390532b39ec899"
+        },
+        {
+          "path": "martix-fluent-ui/references/source-index.md",
+          "upstream_path": "skills/martix-fluent-ui/references/source-index.md",
+          "sha256": "c9e735b4c8ba0948c7e142a257b0615aa8aa5f0ee2856d3969e25088d8812d84"
+        },
+        {
+          "path": "martix-fluent-ui/references/ssr-recipes.md",
+          "upstream_path": "skills/martix-fluent-ui/references/ssr-recipes.md",
+          "sha256": "c538671d0e6bf671df47127886162509543f6c9c9b098e715f44c6a46b6853db"
+        },
+        {
+          "path": "martix-fluent-ui/references/version-support-map.md",
+          "upstream_path": "skills/martix-fluent-ui/references/version-support-map.md",
+          "sha256": "8ccaedfd347416e3d29bb09bb8842a27340784fcf8f09765bf55841375dbe0ee"
+        },
+        {
+          "path": "martix-fluent-ui/rules/_sections.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/_sections.md",
+          "sha256": "1164c0b263e6b0fe4010086e83d53961c603d60a7415f01dcdbec31dd9fd95de"
+        },
+        {
+          "path": "martix-fluent-ui/rules/accessibility-focus.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/accessibility-focus.md",
+          "sha256": "b1fdf149485ea9597825d691fc06ae2a58fe4c7397f950030a2b37c461096119"
+        },
+        {
+          "path": "martix-fluent-ui/rules/component-composition-slots.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/component-composition-slots.md",
+          "sha256": "c0c16fdbafdf7df7099a85e63d0159c3708057fa9ee38ed1f00d0f0eca2a8b35"
+        },
+        {
+          "path": "martix-fluent-ui/rules/foundation-packages-provider-theme.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/foundation-packages-provider-theme.md",
+          "sha256": "f1637102b25a4960a78589209fb5d29cbe091fc35c61a82202fcd7cd4b044d43"
+        },
+        {
+          "path": "martix-fluent-ui/rules/icons-motion-charts.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/icons-motion-charts.md",
+          "sha256": "885b9299a2d2c7673decbf5cce1cda71fe829c8e6280ffc0b4dd7c35e740245a"
+        },
+        {
+          "path": "martix-fluent-ui/rules/migration-v8-v0.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/migration-v8-v0.md",
+          "sha256": "88661728af5894c15fba3aade67e46959bfedf564b248568c14048a5041b05b2"
+        },
+        {
+          "path": "martix-fluent-ui/rules/ssr-nextjs.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/ssr-nextjs.md",
+          "sha256": "2a0808ad50b367f81788c50f6d0b85ae0c3167774dcfb007cde94ca5ef50b7b3"
+        },
+        {
+          "path": "martix-fluent-ui/rules/styling-tokens-griffel.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/styling-tokens-griffel.md",
+          "sha256": "6c19489fe74a9f81b268703664bacc5a4a949c7fd41d37f1f0cb37bd2d7ccaf8"
+        },
+        {
+          "path": "martix-fluent-ui/rules/testing-quality-gates.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/testing-quality-gates.md",
+          "sha256": "76cb0654820db87b2fe04531a19813df5b4d695f7f0cee0eee060a4ae8bbe581"
+        },
+        {
+          "path": "martix-fluent-ui/rules/vue-web-components.md",
+          "upstream_path": "skills/martix-fluent-ui/rules/vue-web-components.md",
+          "sha256": "2770b76c144499267836038111ced570357142c8ec96433f980d453c95f61503"
+        },
+        {
+          "path": "martix-fluent-ui/templates/accessible-toolbar.template.tsx",
+          "upstream_path": "skills/martix-fluent-ui/templates/accessible-toolbar.template.tsx",
+          "sha256": "c4b1764e2b89b5a9e8febbc4d01746e9b275f63527324131337a1fd43cd112a0"
+        },
+        {
+          "path": "martix-fluent-ui/templates/fluent-provider.template.tsx",
+          "upstream_path": "skills/martix-fluent-ui/templates/fluent-provider.template.tsx",
+          "sha256": "cb14589bc753dc44214580006fc0533b4cad274fda59c112c2b50d5a97d3bbb4"
+        },
+        {
+          "path": "martix-fluent-ui/templates/nextjs-app-router-registry.template.tsx",
+          "upstream_path": "skills/martix-fluent-ui/templates/nextjs-app-router-registry.template.tsx",
+          "sha256": "9c5dbc05faf25763ef6083cfd468e149e00e257312b934ebe4b53e01b5e30e87"
+        },
+        {
+          "path": "martix-fluent-ui/templates/token-styles.template.module.css",
+          "upstream_path": "skills/martix-fluent-ui/templates/token-styles.template.module.css",
+          "sha256": "caee71da378231576c0960aec8b67946f4274db7ec1cccc967cbe752caa5a2b9"
+        },
+        {
+          "path": "martix-fluent-ui/templates/vue-custom-elements.template.d.ts",
+          "upstream_path": "skills/martix-fluent-ui/templates/vue-custom-elements.template.d.ts",
+          "sha256": "fbb055fc041546e1cd11e987519b49c23251d226191b8aad27dbdd842e07f217"
+        }
+      ],
+      "validation": "static inspection; no tenant/runtime execution",
+      "collection_files": [
+        {
+          "path": "martix-fluent-ui/agents/openai.yaml",
+          "sha256": "b447cf40c872d5dea2123c8b4c668b1b8bd91bb6a2f248fdfdf9275d9834fa54"
+        }
+      ]
+    },
+    {
+      "name": "pnp-modern-search",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://microsoft-search.github.io/pnp-modern-search/",
+        "https://github.com/microsoft-search/pnp-modern-search"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "pnp-modern-search/SKILL.md",
+          "sha256": "49328c8665ecdc293298aa1bc65502397f092b03e9b8b009c196f96bef39f37b"
+        },
+        {
+          "path": "pnp-modern-search/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "pnp-modern-search/agents/openai.yaml",
+          "sha256": "7830fb698dc6e0b72a2cee7179c58854d83e811c2d8c788b71bc513503f47dbb"
+        }
+      ]
+    },
+    {
+      "name": "sharepoint-json-column-formatting",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting",
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference",
+        "https://github.com/pnp/List-Formatting"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "sharepoint-json-column-formatting/SKILL.md",
+          "sha256": "7ba1873ef25d2df564df76ee4d177c18e591516cab4c28d292cc9a4471c98fd0"
+        },
+        {
+          "path": "sharepoint-json-column-formatting/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "sharepoint-json-column-formatting/agents/openai.yaml",
+          "sha256": "f29fa6eefcaba2140e506c4300a79ce3b09e98c83e739955d1d295abad2f1727"
+        }
+      ]
+    },
+    {
+      "name": "sharepoint-json-view-formatting",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/view-formatting",
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference",
+        "https://github.com/pnp/List-Formatting"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "sharepoint-json-view-formatting/SKILL.md",
+          "sha256": "df8cddd233d46b85db78fec178b0fb9ae28bfc20cab39ab0b4240237a5f6161a"
+        },
+        {
+          "path": "sharepoint-json-view-formatting/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "sharepoint-json-view-formatting/agents/openai.yaml",
+          "sha256": "b461e614a7867caeb7ba57ec22da9ab790dada8da19507310ae87b30a32f68b0"
+        }
+      ]
+    },
+    {
+      "name": "adaptive-cards-m365",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/adaptive-cards/",
+        "https://learn.microsoft.com/microsoftteams/platform/task-modules-and-cards/cards/cards-reference",
+        "https://learn.microsoft.com/sharepoint/dev/spfx/viva/overview-viva-connections"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "adaptive-cards-m365/SKILL.md",
+          "sha256": "c4103fbb220f696f27df8c06110e0fdb8fb90f09b3c0ee1979ad46484c27bd85"
+        },
+        {
+          "path": "adaptive-cards-m365/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "adaptive-cards-m365/agents/openai.yaml",
+          "sha256": "1202a30a5d824bbfd35d64372b59d91b201bfa2f0913349dfebbcae18147ea64"
+        }
+      ]
+    },
+    {
+      "name": "power-automate-development",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/power-automate/",
+        "https://learn.microsoft.com/connectors/",
+        "https://github.com/microsoft/power-platform-skills"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "power-automate-development/SKILL.md",
+          "sha256": "b3faf5ac73716fe11bc0e42010e24f97959b165eaa5f1611178f3f429867cfc0"
+        },
+        {
+          "path": "power-automate-development/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "power-automate-development/agents/openai.yaml",
+          "sha256": "3d603842afff0d9860cf9317aa4857b698a3a3326de887ba51f4ddd37ce954bf"
+        }
+      ]
+    },
+    {
+      "name": "power-apps-development",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/power-apps/maker/canvas-apps/",
+        "https://learn.microsoft.com/power-apps/maker/model-driven-apps/",
+        "https://github.com/microsoft/power-platform-skills"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "power-apps-development/SKILL.md",
+          "sha256": "c5d6f8597ea337573a5047940736b8cd4de106d66580e8d7409f6e18cf51bbf2"
+        },
+        {
+          "path": "power-apps-development/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "power-apps-development/agents/openai.yaml",
+          "sha256": "91d2185b80acd087d5a697464749b2f8eb7e20f3e5656262e1be454de29edfc7"
+        }
+      ]
+    },
+    {
+      "name": "planner-development",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/graph/api/resources/planner-overview",
+        "https://learn.microsoft.com/graph/api/resources/planner-task"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "planner-development/SKILL.md",
+          "sha256": "590eaffa7be16186e8d523cfdd092be153d76a09e66414d66396516f084a25ff"
+        },
+        {
+          "path": "planner-development/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "planner-development/agents/openai.yaml",
+          "sha256": "93a810f57d6a7d508ca2abd177ef150679c3cb774281cd4fa331997150ea1644"
+        }
+      ]
+    },
+    {
+      "name": "microsoft-forms-integration",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/connectors/microsoftforms/",
+        "https://learn.microsoft.com/power-automate/forms/overview"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "microsoft-forms-integration/SKILL.md",
+          "sha256": "a0931986b9bc0f291de7ecb54f7d3b2a31a94b5caa24fdb0c76f174e4dfc27fe"
+        },
+        {
+          "path": "microsoft-forms-integration/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "microsoft-forms-integration/agents/openai.yaml",
+          "sha256": "c1a8bf5e99363d50dfa6778113a4ad8ac96d5f5b562118a2d7e4394b78e575e3"
+        }
+      ]
+    },
+    {
+      "name": "sharepoint-html-spfx-extensions",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/sharepoint/dev/spfx/extensions/overview-extensions",
+        "https://learn.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "sharepoint-html-spfx-extensions/SKILL.md",
+          "sha256": "202a655beaa3879c9725fc3ab694fc78246b4a62075d3f4c72e53320637cb525"
+        },
+        {
+          "path": "sharepoint-html-spfx-extensions/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "sharepoint-html-spfx-extensions/agents/openai.yaml",
+          "sha256": "d41be3d646acb442bb54c104313ebd4f1e5cf336c2a53984858406bab0beb062"
+        }
+      ]
+    },
+    {
+      "name": "azure-functions-m365",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/azure/azure-functions/functions-overview",
+        "https://learn.microsoft.com/graph/change-notifications-overview",
+        "https://learn.microsoft.com/azure/azure-functions/functions-reference"
+      ],
+      "validation": "static inspection only; live host tests pending",
+      "files": [
+        {
+          "path": "azure-functions-m365/SKILL.md",
+          "sha256": "6fde0f90d0dcb541c5142454c5c4bea874f0d25d6e931e6e1e1de148dc15d9de"
+        },
+        {
+          "path": "azure-functions-m365/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "azure-functions-m365/agents/openai.yaml",
+          "sha256": "b89c55c0a35e052e3093779b27e2c47a087b94aebd528fbad4e86f958c4e0cf8"
+        }
+      ]
+    },
+    {
+      "name": "microsoft-learn",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/en-us/training/support/mcp-developer-reference",
+        "https://learn.microsoft.com/en-us/training/support/mcp-get-started"
+      ],
+      "validation": "static validation; live MCP checks documented in research/microsoft-learn-validation.json",
+      "files": [
+        {
+          "path": "microsoft-learn/SKILL.md",
+          "sha256": "aec3ed47c5d2e238f40c2d13d2089305ae74b87fb8fa8a241b8d61bf374ef8fa"
+        },
+        {
+          "path": "microsoft-learn/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "microsoft-learn/agents/openai.yaml",
+          "sha256": "cdb1c8eced00fd47c679505f7b89c901fa92526bb086194009ab88802f0b4405"
+        }
+      ]
+    },
+    {
+      "name": "workiq-sharepoint",
+      "origin": "original",
+      "version": "0.1.0",
+      "license": "MIT",
+      "checked_at": "2026-11-14",
+      "references": [
+        "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/sharepoint-iq",
+        "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/permissions"
+      ],
+      "validation": "static checks passed; authentication challenge verified; authenticated tenant tool/schema discovery pending",
+      "files": [
+        {
+          "path": "workiq-sharepoint/SKILL.md",
+          "sha256": "d6042505fc9169c17a7a08f03b3f2f291fb7de5a1218e6d635978792ad801d84"
+        },
+        {
+          "path": "workiq-sharepoint/LICENSE",
+          "sha256": "36141f1be6c96f30144367be626a909ea29b07b5a78c2e395e825d6039adc058"
+        }
+      ],
+      "collection_files": [
+        {
+          "path": "workiq-sharepoint/agents/openai.yaml",
+          "sha256": "79015a3ce1d215410790b516461eba0559bf59f27b039bd762c443fcff99328f"
+        }
+      ]
+    }
+  ]
+}

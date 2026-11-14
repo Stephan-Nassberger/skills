@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "m365-developer-skills",
+  "version": "0.3.0",
+  "description": "Microsoft 365 development skills with Microsoft Learn documentation and OAuth-protected Work IQ SharePoint actions.",
+  "author": {
+    "name": "Stephan Nassberger"
+  },
+  "repository": "https://github.com/Stephan-Nassberger/skills",
+  "license": "MIT AND Apache-2.0",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "M365 Developer Skills",
+        "shortDescription": "M365 & SharePoint Entwicklung",
+        "longDescription": "Eighteen curated and original skills with Microsoft Learn documentation and Work IQ for SharePoint operations. Work IQ requires delegated Microsoft sign-in, appropriate consent, permissions and tenant policy. Tenant operations are available only after successful connection.",
+        "developerName": "Stephan Nassberger",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Hilf mir bei einer Microsoft-365- oder SharePoint-Entwicklungsaufgabe. Prüfe zuerst Projektversion, Zielumgebung und verfügbare Tools."
+      }
+    }
+  }
+}

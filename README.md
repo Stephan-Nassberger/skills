@@ -211,3 +211,29 @@ General workflow tools, not code-specific.
 **Model-invoked**
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)** — Interview the user relentlessly about a plan, decision, or idea until every branch of the decision tree is resolved. The reusable loop behind `grill-me` and `grill-with-docs`.
+
+## M365 Developer Skills — Model-invoked
+
+Curated addition by Stephan Nassberger, separate from Matt Pocock’s original skills. Six upstream packages and twelve original workflows; each retains its own license. The existing private ChatGPT plugin is maintained separately.
+
+- **[spfx](./skills/engineering/M365%20Developer%20Skills/spfx/SKILL.md)** — SharePoint Framework (SPFx) development.
+- **[msgraph-sdk](./skills/engineering/M365%20Developer%20Skills/msgraph-sdk/SKILL.md)** — Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python.
+- **[teams-dev](./skills/engineering/M365%20Developer%20Skills/teams-dev/SKILL.md)** — Use this skill whenever the user mentions Microsoft Teams in a development context — whether they're building, integrating, configuring, debugging, porting a Slack bot to Teams, or just asking questions.
+- **[semantic-model-authoring](./skills/engineering/M365%20Developer%20Skills/semantic-model-authoring/SKILL.md)** — Manages Power BI semantic models, including tables, columns, measures, relationships, field parameters, DAX, Import, DirectQuery and Direct Lake designs, sources, connections, permissions, refresh, and deployment.
+- **[martix-sharepoint-pnp](./skills/engineering/M365%20Developer%20Skills/martix-sharepoint-pnp/SKILL.md)** — Standalone-first SharePoint PnP guidance for tool selection, provisioning, automation, authentication, and cross-tool delivery using PnP PowerShell, CLI for Microsoft 365, and PnPjs.
+- **[martix-fluent-ui](./skills/engineering/M365%20Developer%20Skills/martix-fluent-ui/SKILL.md)** — Fluent UI React v9 engineering for packages, providers, themes, tokens, Griffel, public component and slot composition, accessibility and focus, Next.js SSR, icons, motion, charts, legacy Fabric/v8/v0 migration, and rare Vue integration through @fluentui/web-components.
+- **[pnp-modern-search](./skills/engineering/M365%20Developer%20Skills/pnp-modern-search/SKILL.md)** — Configure and troubleshoot PnP Modern Search v4 web parts, KQL, managed properties, filters and Handlebars layouts.
+- **[sharepoint-json-column-formatting](./skills/engineering/M365%20Developer%20Skills/sharepoint-json-column-formatting/SKILL.md)** — Create, review and troubleshoot SharePoint and Microsoft Lists JSON column formatting, field expressions and supported actions.
+- **[sharepoint-json-view-formatting](./skills/engineering/M365%20Developer%20Skills/sharepoint-json-view-formatting/SKILL.md)** — Create and debug SharePoint and Microsoft Lists JSON view formatting for rows, tiles and supported layout surfaces.
+- **[adaptive-cards-m365](./skills/engineering/M365%20Developer%20Skills/adaptive-cards-m365/SKILL.md)** — Design and validate Adaptive Cards for Teams, Power Automate or SPFx Adaptive Card Extensions with host-specific actions and data binding..
+- **[power-automate-development](./skills/engineering/M365%20Developer%20Skills/power-automate-development/SKILL.md)** — Design, review and troubleshoot Power Automate cloud flows, SharePoint integrations, expressions, connection references and solution ALM.
+- **[power-apps-development](./skills/engineering/M365%20Developer%20Skills/power-apps-development/SKILL.md)** — Build and review Power Apps canvas and model-driven apps, Power Fx, SharePoint forms, delegation and solution ALM using the actual authoring tools available..
+- **[planner-development](./skills/engineering/M365%20Developer%20Skills/planner-development/SKILL.md)** — Develop Microsoft Planner basic-plan integrations through Microsoft Graph, including tasks, buckets, details, assignments and concurrency.
+- **[microsoft-forms-integration](./skills/engineering/M365%20Developer%20Skills/microsoft-forms-integration/SKILL.md)** — Integrate Microsoft Forms responses with Power Automate and SharePoint using documented connectors, ownership and response mappings.
+- **[sharepoint-html-spfx-extensions](./skills/engineering/M365%20Developer%20Skills/sharepoint-html-spfx-extensions/SKILL.md)** — Choose and implement supported SharePoint HTML rendering and SPFx Application Customizer, Field Customizer, Command Set or Form Customizer extensions..
+- **[azure-functions-m365](./skills/engineering/M365%20Developer%20Skills/azure-functions-m365/SKILL.md)** — Build and troubleshoot Azure Functions backends for Microsoft 365 integrations, Graph webhooks, timers and queue-based processing..
+- **[microsoft-learn](./skills/engineering/M365%20Developer%20Skills/microsoft-learn/SKILL.md)** — Search current Microsoft Learn documentation and official code samples before implementing or troubleshooting Microsoft 365, SharePoint, SPFx, Graph, Teams, Power Platform, Power BI, Fluent UI or Azure integrations.
+
+[Collection and plugin build](./skills/engineering/M365%20Developer%20Skills/README.md) · [Attribution](./skills/engineering/M365%20Developer%20Skills/THIRD_PARTY_NOTICES.md)
+
+- **[workiq-sharepoint](./skills/engineering/M365%20Developer%20Skills/workiq-sharepoint/SKILL.md)** — SharePoint Online über Work IQ lesen und bearbeiten; echte Schemas und delegierte Berechtigungen prüfen.

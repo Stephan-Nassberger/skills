@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-14",
+  "endpoint": "https://learn.microsoft.com/api/mcp",
+  "client": "official Python mcp SDK 2.3.0",
+  "host_connection": "configuration read back and listed in ChatGPT plugin; tools not exposed in existing agent chat",
+  "checks": [
+    {
+      "tool": "microsoft_docs_search",
+      "arguments": {
+        "query": "SharePoint JSON column formatting schema"
+      },
+      "is_error": false,
+      "returned_text_characters": 20389,
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/formatting-syntax-reference",
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting#apply-formatting-based-on-date-ranges",
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting#creating-custom-json",
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting#display-field-values-basic",
+        "https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting#get-started-with-column-formatting"
+      ],
+      "passed": true
+    },
+    {
+      "tool": "microsoft_docs_fetch",
+      "arguments": {
+        "url": "https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting"
+      },
+      "is_error": false,
+      "returned_text_characters": 32808,
+      "source_urls": [],
+      "passed": true
+    },
+    {
+      "tool": "microsoft_code_sample_search",
+      "arguments": {
+        "query": "Azure Functions HTTP trigger TypeScript",
+        "language": "typescript"
+      },
+      "is_error": false,
+      "returned_text_characters": 14189,
+      "source_urls": [
+        "https://learn.microsoft.com/azure/azure-functions/functions-add-output-binding-storage-queue-cli?pivots=programming-language-csharp%20programming-language-java%20programming-language-javascript%20programming-language-typescript%20programming-language-python%20programming-language-powershell#add-an-output-binding-definition-to-the-function",
+        "https://learn.microsoft.com/azure/azure-functions/functions-node-upgrade-v4?pivots=programming-language-typescript#define-your-function-in-code",
+        "https://learn.microsoft.com/azure/azure-functions/functions-reference-node?pivots=nodejs-model-v3#programming-model",
+        "https://learn.microsoft.com/azure/azure-functions/functions-reference-node?pivots=nodejs-model-v4#programming-model",
+        "https://learn.microsoft.com/azure/azure-functions/functions-reference-node?pivots=nodejs-model-v4#triggers-and-bindings"
+      ],
+      "passed": true
+    }
+  ],
+  "server": "Microsoft Learn MCP Server",
+  "tools": [
+    "microsoft_docs_search",
+    "microsoft_code_sample_search",
+    "microsoft_docs_fetch"
+  ],
+  "passed": true
+}

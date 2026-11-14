@@ -1,0 +1,227 @@
+{
+  "name": "martix-sharepoint-pnp",
+  "displayName": "MartiX SharePoint PnP",
+  "version": "0.1.0",
+  "publisher": {
+    "name": "MartiXDev",
+    "repository": "MartiXDev/skills",
+    "distributionModel": "standalone skill with optional direct Copilot marketplace registration"
+  },
+  "summary": "Standalone-first MartiX skill package for SharePoint PnP practices, provisioning, and automation.",
+  "abstract": "This package is the canonical source for PnP PowerShell, CLI for Microsoft 365, PnPjs, provisioning guidance, auth and connection decisions, and cross-tool delivery practices.",
+  "compatibility": {
+    "primaryTarget": "GitHub Copilot CLI",
+    "secondaryTargets": [
+      "Agent Skills-compatible tools"
+    ],
+    "languageBaselines": [
+      "PnP PowerShell",
+      "CLI for Microsoft 365",
+      "PnPjs",
+      "Provisioning",
+      "SharePoint Online"
+    ]
+  },
+  "status": {
+    "maturity": "authoring",
+    "canonicalSkillRoot": "skills/martix-sharepoint-pnp",
+    "marketplaceSourceRoot": "skills/martix-sharepoint-pnp",
+    "entrypointFilesAuthoredSeparately": [
+      "SKILL.md",
+      "AGENTS.md",
+      "LICENSE.txt"
+    ]
+  },
+  "layers": {
+    "maintainerGuide": "README.md",
+    "metadata": "metadata.json",
+    "rules": "rules/*.md",
+    "references": "references/*.md",
+    "templates": "templates/*.md",
+    "assets": "assets/*.json",
+    "futureSkillEntry": "SKILL.md",
+    "futureCompiledGuide": "AGENTS.md"
+  },
+  "taxonomy": {
+    "mode": "standalone-first",
+    "prefixCount": 5,
+    "domainCount": 5,
+    "tags": [
+      "PnP PowerShell",
+      "CLI for Microsoft 365",
+      "m365 spo",
+      "PnPjs",
+      "provisioning",
+      "site scripts",
+      "site designs",
+      "automation",
+      "authentication",
+      "SharePoint"
+    ],
+    "handoffBoundaries": [
+      "martix-sharepoint-spfx",
+      "martix-sharepoint-server"
+    ],
+    "rulePrefixes": {
+      "foundation": "Tool selection and boundaries",
+      "auth": "Authentication and connections",
+      "automation": "Automation patterns",
+      "provisioning": "Provisioning and composition",
+      "operations": "Operations and integration"
+    },
+    "domains": [
+      {
+        "id": "foundation",
+        "displayName": "Tool selection and boundaries",
+        "ruleCount": 1,
+        "rules": [
+          "rules/tool-selection-and-boundaries.md"
+        ]
+      },
+      {
+        "id": "auth",
+        "displayName": "Authentication and connections",
+        "ruleCount": 1,
+        "rules": [
+          "rules/auth-app-registration-and-connections.md"
+        ]
+      },
+      {
+        "id": "automation",
+        "displayName": "Automation patterns",
+        "ruleCount": 2,
+        "rules": [
+          "rules/pnppowershell-automation-patterns.md",
+          "rules/cli-m365-and-tenant-automation.md"
+        ]
+      },
+      {
+        "id": "provisioning",
+        "displayName": "Provisioning and composition",
+        "ruleCount": 1,
+        "rules": [
+          "rules/pnpjs-and-provisioning-composition.md"
+        ]
+      },
+      {
+        "id": "operations",
+        "displayName": "Operations and integration",
+        "ruleCount": 1,
+        "rules": [
+          "rules/governance-idempotency-and-spfx-integration.md"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "ruleCount": 6,
+    "ruleSupportFiles": [
+      "rules/_sections.md",
+      "rules/_template.md"
+    ],
+    "rules": [
+      "rules/tool-selection-and-boundaries.md",
+      "rules/auth-app-registration-and-connections.md",
+      "rules/pnppowershell-automation-patterns.md",
+      "rules/cli-m365-and-tenant-automation.md",
+      "rules/pnpjs-and-provisioning-composition.md",
+      "rules/governance-idempotency-and-spfx-integration.md"
+    ],
+    "referenceCount": 6,
+    "references": [
+      "references/doc-source-index.md",
+      "references/tool-selection-map.md",
+      "references/auth-connection-map.md",
+      "references/automation-recipes.md",
+      "references/provisioning-composition-map.md",
+      "references/anti-patterns-quick-reference.md"
+    ],
+    "templateCount": 3,
+    "templates": [
+      "templates/rule-template.md",
+      "templates/research-pack-template.md",
+      "templates/comparison-matrix-template.md"
+    ],
+    "assetCount": 2,
+    "assets": [
+      "assets/taxonomy.json",
+      "assets/section-order.json"
+    ],
+    "evalFileCount": 1,
+    "evalPromptCount": 6,
+    "evals": [
+      "evals/evals.json"
+    ]
+  },
+  "ordering": {
+    "ruleSectionOrder": [
+      "Purpose",
+      "Default guidance",
+      "Avoid",
+      "Review checklist",
+      "Related files",
+      "Source anchors"
+    ],
+    "recommendedRuleOrder": [
+      "rules/tool-selection-and-boundaries.md",
+      "rules/auth-app-registration-and-connections.md",
+      "rules/pnppowershell-automation-patterns.md",
+      "rules/cli-m365-and-tenant-automation.md",
+      "rules/pnpjs-and-provisioning-composition.md",
+      "rules/governance-idempotency-and-spfx-integration.md"
+    ],
+    "referenceOrder": [
+      "references/doc-source-index.md",
+      "references/tool-selection-map.md",
+      "references/auth-connection-map.md",
+      "references/automation-recipes.md",
+      "references/provisioning-composition-map.md",
+      "references/anti-patterns-quick-reference.md"
+    ],
+    "templateOrder": [
+      "templates/rule-template.md",
+      "templates/research-pack-template.md",
+      "templates/comparison-matrix-template.md"
+    ]
+  },
+  "distribution": {
+    "primarySurface": {
+      "id": "standalone-skills-cli",
+      "status": "canonical",
+      "officialInstallCommand": "npx skills add <source>",
+      "preferredSources": [
+        "skills/martix-sharepoint-pnp",
+        "https://github.com/MartiXDev/skills/tree/main/skills/martix-sharepoint-pnp"
+      ],
+      "notes": [
+        "Official docs currently show npx skills add, not npx skill add.",
+        "Prefer a direct folder path or direct GitHub tree URL because skills is not a documented repo-root discovery location."
+      ]
+    },
+    "secondarySurface": {
+      "id": "copilot-cli-plugin-marketplace",
+      "status": "direct-registration",
+      "marketplaceRepository": "MartiXDev/skills",
+      "marketplaceName": "martix-skills",
+      "pluginName": "martix-sharepoint-pnp",
+      "strategy": "register the canonical standalone package directly from skills"
+    }
+  },
+  "executionProfile": {
+    "modelTier": "medium",
+    "taskTypes": [
+      "implementation",
+      "review",
+      "validation"
+    ],
+    "parallelSafety": "single-package",
+    "fleetReady": true,
+    "worktreeSafe": true,
+    "tokenBudget": "medium",
+    "contextStrategy": [
+      "Start with SKILL.md.",
+      "Open only the routed rule or reference file for the requested task.",
+      "Use README.md for install and validation guidance."
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: msgraph-sdk
+  short_description: 'Microsoft 365: msgraph-sdk'
