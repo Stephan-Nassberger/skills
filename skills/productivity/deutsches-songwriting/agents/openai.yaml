@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deutsches Songwriting"
+  short_description: "Hooks, Reime und singbare deutsche Texte"
+  default_prompt: "Nutze $deutsches-songwriting, um aus meiner Idee einen Refrain mit passenden Reimfamilien zu entwickeln."
+policy:
+  allow_implicit_invocation: true
