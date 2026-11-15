@@ -237,3 +237,12 @@ Curated addition by Stephan Nassberger, separate from Matt Pocock’s original s
 [Collection and plugin build](./skills/engineering/M365%20Developer%20Skills/README.md) · [Attribution](./skills/engineering/M365%20Developer%20Skills/THIRD_PARTY_NOTICES.md)
 
 - **[workiq-sharepoint](./skills/engineering/M365%20Developer%20Skills/workiq-sharepoint/SKILL.md)** — SharePoint Online über Work IQ lesen und bearbeiten; echte Schemas und delegierte Berechtigungen prüfen.
+
+## Creative, Songwriting & Design Skills
+
+Curated addition by Stephan Nassberger. Each imported package retains its own licence and provenance record.
+
+- **[deutsches-songwriting](./skills/productivity/deutsches-songwriting/SKILL.md)** — Entwickelt deutsche Hooks, Reimideen und singbare Liedtexte mit natürlicher Betonung und eigener Stimme.
+- **[adobe-retouch-portraits](./skills/creative/adobe-retouch-portraits/SKILL.md)** — Bearbeitet Portraitserien mit dem Adobe-Workflow; [Herkunft und Lizenz](./skills/creative/adobe-retouch-portraits/UPSTREAM.md).
+- **[design-skill](./skills/design/design-skill/SKILL.md)** — Erstellt Designrichtungen, Wireframes und prüft UI-Qualität; [Herkunft und Lizenz](./skills/design/design-skill/UPSTREAM.md).
+- **[UI/UX Agent Skill System](./skills/design/ui-ux-agent-skill-system/UPSTREAM.md)** — Codex-Projektion für UI/UX-Architektur, Audits, Designkritik und Designsystem-Arbeit.
