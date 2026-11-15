@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer"
+  short_description: "Make German and English prose sound natural"
+  default_prompt: "Use $humanizer to revise this prose while preserving its meaning and facts."
